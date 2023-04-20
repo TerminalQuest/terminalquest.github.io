@@ -3,33 +3,35 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Welcome to TerminalQuest">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+		<h1>Welcome to <span class="text-gradient">TerminalQuest</span></h1>
 		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+			Answer the call of the cursor, and discover your power to change the world
+			with code. This is the new home for the edcuational PC game formerly
+			known as TwilioQuest. It is very early days, so expect a lot of change
+			here in the days ahead! Here's how you can stay engaged with the project.
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
+				href="https://github.com/TerminalQuest"
+				title="GitHub"
+				body="Follow our progress on GitHub"
 			/>
 			<Card
 				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
+				title="Discord"
+				body="Join our Discord server to hang out with players and developers."
 			/>
 			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
+				href="https://twitter.com/TerminalQuest"
+				title="Twitter"
+				body="Maybe see updates here before Elon Musk completely destroys this business?"
 			/>
 			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
+				href="#"
+				title="Download TQ"
+				body="Download a development build of the game (coming soon)!"
 			/>
 		</ul>
 	</main>
@@ -42,7 +44,7 @@ import Card from '../components/Card.astro';
 		max-width: 60ch;
 	}
 	h1 {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		font-weight: 800;
 		margin: 0;
 	}
